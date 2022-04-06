@@ -1,0 +1,198 @@
+body{
+    font-family: 'Montserrat';    
+    font-size: large;
+    background-image: url("./bg.jpg");
+}
+
+.svgbottom{
+    position:fixed; 
+    left: 65px;
+    bottom: 0px;
+    
+    }
+    
+    
+    .svgtop{
+        position:fixed; 
+        left: 65px;
+        top:-10px;
+        }
+
+.container{
+    display: flex;
+    flex-direction:column;
+    margin-left: 200px;
+}
+
+.rightContainer{
+    border: 1px solid #eee;
+    min-height: 300px;
+    position: absolute;
+    right: 300;
+    width: 700px;
+    top:200;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+input[type=text]{
+    width: 90%;
+    padding-top: 30px;
+    padding:12px 20px 20px;
+    margin: 8px;
+    font-family: 'Montserrat';
+    display: inline-block;
+    border:1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+textarea{
+    width: 90%;
+    padding-top: 30px;
+    padding:12px 20px 20px;
+    margin: 8px;
+    font-family: 'Montserrat';
+    display: inline-block;
+    border:1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+button{
+    width: 90%;
+    padding: 15px;
+    margin: 20px;
+    background-color: #229B61;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #004121;
+}
+
+
+label{
+    text-align: left;
+}
+
+
+h5{
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: -5;
+    color:rgb(116, 116, 116);
+    font-weight: 200;
+    font-size: large;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.optionSelectionComplaint{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-evenly;    
+    text-align: left;
+    cursor: pointer;
+}
+
+#complaintSelectionText{
+    font-size: 35px;
+    color: #004121;
+}
+
+#complimentSelectionText{
+    font-size: 25px
+
+}
+
+#satisfactionSelectionText{
+    font-size: 25px
+
+}
+
+#satisfactionSelectionText{
+    font-size: 25px
+}
+
+
+#ratingSelectionText{
+    font-size: 25px
+}
+
+#complaintSelection:hover{
+    color: #006633;
+}
+
+#selectionIconComplaint{
+    margin-top: 43px;
+}
+
+#selectionIconCompliment{
+    margin-top: 43px;
+    display: none;
+}
+
+#selectionIconSatisfaction{
+    margin-top: 43px;
+    display: none;
+}
+
+#selectionIconRating{
+    margin-top: 43px;
+    display: none;
+}
+
+#compliment{
+    display: none;
+}
+
+#satisfaction{
+    display: none;
+}
+
+#rating{
+    display: none;
+}
+
+#satisfactionElements{
+    color:#727272;
+    margin: 200px;
+}
+
+#emojis{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-evenly;
+    margin: 20px;
+}
+
+#emoji{
+    font-size: 50px;
+}
+#emoji:hover{
+    font-size: 60px;
+    cursor: pointer;
+}
+select{
+    width: 90%;
+    padding-top: 30px;
+    padding:12px 20px 20px;
+    margin: 8px;
+    font-family: 'Montserrat';
+    display: inline-block;
+    border:1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+    appearance: none;
+}
